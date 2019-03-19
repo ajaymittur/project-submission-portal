@@ -1,0 +1,22 @@
+.container {
+    text-align: center;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100px repeat(3, auto) 100px;
+}
+
+button {
+    grid-column: 5 / 6;
+    height: 50px;
+    align-self: center;
+}
+
+.dashboard {
+    grid-column: 3 / 4;
+    grid-row: 1 / 1;
+}
+
+.welcome {
+    grid-column: 3 / 4;
+    grid-row: 2 / 2;
+}
