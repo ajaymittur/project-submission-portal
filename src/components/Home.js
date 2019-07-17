@@ -20,7 +20,7 @@ class Home extends React.Component {
             <div id="container">
                 <h1>Self Study Submission</h1>
                 <GoogleLogin
-                    clientId="36540532334-325nkhq30rvp6k9dj1mleqjlnqvcq9pp.apps.googleusercontent.com"
+                    clientId="your client id"
                     buttonText="Login to your BMSCE account"
                     onSuccess={this.signIn}
                 />          
